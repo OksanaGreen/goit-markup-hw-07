@@ -6,25 +6,27 @@
 @media screen and (min-width: 480px) {
   .conteiner {
     min-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 @media screen and (max-width: 480px) {
   .header-conteiner {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
     min-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .header {
     min-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .mobail-menu-open {
+    padding-right: 0;
+    padding-left: 0;
     display: block;
-    margin-left: auto;
     stroke: #2e2f42;
+    border: transparent;
+    margin-right: auto;
   }
   .header-conteiner {
   }
@@ -33,6 +35,9 @@
 }
 @media screen and (max-width: 767px) {
   .header-list {
+    display: none;
+  }
+  .adress {
     display: none;
   }
 }

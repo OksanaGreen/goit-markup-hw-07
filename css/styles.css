@@ -56,27 +56,7 @@ img {
   clip-path: inset(50%);
   margin: -1px;
 }
-.conteiner-hero {
-  width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.conteiner {
-  width: 1158px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/*------Header-------*/
-.header {
-  width: 100%;
-  top: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
-  background: #ffffff;
-}
+
 .current {
   color: #404bbf;
   position: relative;
@@ -92,13 +72,7 @@ img {
   left: 0px;
   top: 43px;
 }
-.header-conteiner {
-  display: flex;
-}
-.header-navigation {
-  display: flex;
-  align-items: center;
-}
+
 .span-header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -121,80 +95,7 @@ img {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.header-list {
-  display: flex;
-  gap: 40px;
-}
-.header-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  /* identical to box height, or 150% */
-  letter-spacing: 0.02em;
-}
-.header-link {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  /* NAVY BLUE */
-  color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link:hover,
-.header-link:focus {
-  color: #4d5ae5;
-}
-.mobail-menu-open {
-  display: block;
-  margin-left: auto;
-  margin-bottom: 24px;
-  stroke: #2e2f42;
-}
-/*------Adress-------*/
-.adress {
-  margin-left: auto;
-}
-.adress-list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 40px;
-}
-.adress-item {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  /* SLATE */
-  color: #434455;
-}
-.adress-mail {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  /* SLATE */
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress-mail:hover,
-.adress-mail:focus {
-  color: #4d5ae5;
-}
-.adress-tel {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  /* SLATE */
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.adress-tel:hover,
-.adress-tel:focus {
-  color: #4d5ae5;
-}
+
 /*------Hero-------*/
 .hero {
   max-width: 1440px;
