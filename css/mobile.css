@@ -1,18 +1,18 @@
-.conteiner {
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
 @media screen and (min-width: 480px) {
   .conteiner {
     min-width: 428px;
+  }
+  .header-list {
+    display: none;
+  }
+  .adress-list {
+    display: none;
   }
 }
 @media screen and (max-width: 480px) {
   .header-conteiner {
     padding-top: 24px;
     padding-bottom: 24px;
-    display: flex;
     min-width: 428px;
     padding-left: 16px;
     padding-right: 16px;
@@ -26,7 +26,8 @@
     display: block;
     stroke: #2e2f42;
     border: transparent;
-    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
   .header-conteiner {
   }
@@ -37,7 +38,7 @@
   .header-list {
     display: none;
   }
-  .adress {
+  .adress-list {
     display: none;
   }
 }

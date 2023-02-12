@@ -2,4 +2,19 @@
   .conteiner {
     min-width: 768px;
   }
+  .current {
+    color: #404bbf;
+    position: relative;
+  }
+  .current::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    position: absolute;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    left: 0px;
+    top: 43px;
+  }
 }
