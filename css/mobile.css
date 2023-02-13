@@ -40,17 +40,21 @@
     left: 50%;
   }
   /* ----Informeishin--- */
+
+  .information {
+    padding-top: 96px;
+  }
   .information-title {
-    margin-top: 8px;
     font-weight: var(--main-title-fontweight);
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
     color: #2e2f42;
+    align-items: center;
   }
   .information-desc {
+    min-width: 396px;
     margin-top: 8px;
     font-size: var(--paragraph-fontsize);
     font-weight: 500;
@@ -60,10 +64,11 @@
     color: var(--paragraph-color);
   }
   .inform-list {
+    padding-bottom: 96px;
     display: block;
   }
-  .information-title :not(:first-child) {
-    margin-top: 72px;
+  .inform-item-icon:not(:last-child) {
+    margin-bottom: 72px;
   }
 }
 @media screen and (max-width: 767px) {
