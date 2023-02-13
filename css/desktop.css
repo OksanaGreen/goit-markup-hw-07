@@ -1,19 +1,19 @@
+@media screen and (min-width: 200px) and (max-width: 1199px) {
+  .information-item {
+    display: none;
+  }
+}
 @media screen and (min-width: 1200px) {
-  .conteiner {
-    min-width: 1158px;
-  }
   .conteiner-hero {
-    width: 1158px;
     margin-left: auto;
     margin-right: auto;
   }
   .conteiner {
     width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
+
   /*------Header-------*/
   .header {
     width: 100%;
@@ -97,5 +97,26 @@
   .adress-tel:hover,
   .adress-tel:focus {
     color: #4d5ae5;
+  }
+  .hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--gra), url(../images/hero-bg.jpg);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    /* background: #2e2f42;*/
+    text-align: center;
+  }
+  .hero-title {
+    display: inline-block;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
   }
 }
