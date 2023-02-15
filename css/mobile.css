@@ -34,27 +34,32 @@
     color: #ffffff;
   }
   .modal {
-    width: 392px;
-    min-height: 550px;
+    max-width: 392px;
+    max-height: 550px;
     top: 50%;
     left: 50%;
   }
   /* ----Informeishin--- */
+  .information-item {
+    display: none;
+  }
 
   .information {
     padding-top: 96px;
   }
   .information-title {
+    display: block;
     font-weight: var(--main-title-fontweight);
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    align-items: center;
+    text-align: center;
   }
   .information-desc {
-    min-width: 396px;
+    display: block;
+    max-width: 396px;
     margin-top: 8px;
     font-size: var(--paragraph-fontsize);
     font-weight: 500;
@@ -69,6 +74,11 @@
   }
   .inform-item-icon:not(:last-child) {
     margin-bottom: 72px;
+  }
+  .inform-item-icon {
+    width: 100%;
+  }
+  .inform-link {
   }
 }
 @media screen and (max-width: 767px) {
@@ -136,7 +146,16 @@
     display: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 479px) {
+  .conteiner {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-conteiner {
+    max-width: 428px;
+  }
   .hero {
     max-width: 100%;
     margin: 0 auto;
@@ -157,5 +176,46 @@
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+  }
+  /* ----Informeishin--- */
+  .information-item {
+    display: none;
+  }
+
+  .information {
+    padding-top: 96px;
+  }
+  .information-title {
+    display: block;
+    font-weight: var(--main-title-fontweight);
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    text-align: center;
+  }
+  .information-desc {
+    display: block;
+    max-width: 396px;
+    margin-top: 8px;
+    font-size: var(--paragraph-fontsize);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: var(--paragraph-color);
+  }
+  .inform-list {
+    padding-bottom: 96px;
+    display: block;
+  }
+  .inform-item-icon:not(:last-child) {
+    margin-bottom: 72px;
+  }
+  .inform-item-icon {
+    width: 100%;
+  }
+  .inform-link {
   }
 }
