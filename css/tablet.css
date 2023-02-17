@@ -3,6 +3,8 @@
   .information {
     padding-top: 96px;
     padding-bottom: 96px;
+    align-items: center;
+    justify-content: center;
   }
   .information-list {
     display: flex;
@@ -38,7 +40,65 @@
 
   .inform-item-icon {
   }
+  /*-----Footer--------*/
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .footer-conteiner {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    row-gap: 72px;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .footer-media {
+  }
+  .footer-info {
+    align-items: center;
+    justify-content: center;
+    padding-left: 108px;
+  }
+  .footer-media-title {
+    margin-bottom: 16px;
+  }
+  .footer-tagline {
+    margin-top: 16px;
+  }
+  /*-----Footer Subscribe------*/
+  .footer-subscribe {
+    align-items: center;
+    justify-content: center;
+    padding-left: 108px;
+  }
+  .footer-email {
+    display: flex;
+    gap: 24px;
+  }
+  .footer-input {
+    width: 264px;
+  }
+  .hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: var(--gra), url(../images/hero-bg.jpg);
+    padding-top: 112px;
+    padding-bottom: 108px;
+    /* background: #2e2f42;*/
+    text-align: center;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/img2x/bg-desk2x.jpg);
+    }
+  }
 }
+
 @media screen and (min-width: 768px) {
   .conteiner {
     width: 768px;
@@ -133,17 +193,7 @@
   .adress-tel:focus {
     color: #4d5ae5;
   }
-  .hero {
-    max-width: 1440px;
-    margin: 0 auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: var(--gra), url(../images/bg-tab.jpg);
-    padding-top: 112px;
-    padding-bottom: 108px;
-    /* background: #2e2f42;*/
-    text-align: center;
-  }
+
   .hero-title {
     display: inline-block;
     max-width: 496px;
@@ -171,5 +221,22 @@
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 64px;
+  }
+  /* ----Customers--- */
+  .customers {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
+  .cuctomers-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+    row-gap: 72px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 48px) / 3);
+    height: 88px;
   }
 }

@@ -1,4 +1,9 @@
 @media screen and (min-width: 200px) and (max-width: 1199px) {
+  .conteiner {
+    min-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .information-item {
     display: none;
   }
@@ -9,8 +14,6 @@
 
 @media screen and (min-width: 1200px) {
   .conteiner-hero {
-    margin-left: auto;
-    margin-right: auto;
   }
   .conteiner {
     width: 1158px;
@@ -29,6 +32,8 @@
   }
   .header-conteiner {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .header-navigation {
     display: flex;
@@ -113,6 +118,13 @@
     /* background: #2e2f42;*/
     text-align: center;
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: url(../images/img2x/bg-desk2x.jpg);
+    }
+  }
   .hero-title {
     display: inline-block;
     max-width: 496px;
@@ -182,7 +194,6 @@
   .doing {
     padding-bottom: 120px;
     padding-top: 120px;
-    outline: 2px solid rgb(255, 71, 187);
   }
   .doing-title {
     margin-bottom: 72px;
@@ -198,5 +209,55 @@
     gap: 24px;
   }
   .doing-item {
+  }
+  /* ----Customers--- */
+  .customers {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .cuctomers-list {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
+  /*-----Footer--------*/
+  .footer-conteiner {
+    display: flex;
+    align-items: baseline;
+  }
+  .footer-info {
+    margin-right: 120px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-media {
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-media-title {
+    margin-bottom: 16px;
+  }
+  .footer-tagline {
+    margin-top: 16px;
+  }
+  /*-----Footer Subscribe------*/
+  .footer-input {
+    width: 264px;
+  }
+  .footer-subscribe {
+    margin-left: 80px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-email {
+    display: flex;
+    gap: 24px;
   }
 }
