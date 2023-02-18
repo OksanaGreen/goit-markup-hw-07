@@ -73,14 +73,13 @@
     align-items: center;
     gap: 40px;
   }
-  .adress-item {
+  /* .adress-item {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* SLATE */
     color: #434455;
-  }
+  } */
   .adress-mail {
     font-style: normal;
     font-size: 16px;
@@ -115,14 +114,13 @@
     background-image: var(--gra), url(../images/hero-bg.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
-    /* background: #2e2f42;*/
     text-align: center;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../images/img2x/bg-desk2x.jpg);
+      background-image: var(--gra), url(../images/img2x/bg-desk2x.jpg);
     }
   }
   .hero-title {

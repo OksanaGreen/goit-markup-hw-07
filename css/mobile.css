@@ -34,7 +34,7 @@
     color: #ffffff;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .conteiner {
     max-width: 428px;
     padding-left: 16px;
@@ -98,7 +98,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../images/img2x/bg-tab2x.jpg);
+      background-image: var(--gra), url(../images/img2x/bg-tab2x.jpg);
     }
   }
   .hero-title {
@@ -275,7 +275,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../images/img2x/dark-bg-mob2x.jpg);
+      background-image: var(--gra), url(../images/img2x/dark-bg-mob2x.jpg);
     }
   }
   .hero-title {
