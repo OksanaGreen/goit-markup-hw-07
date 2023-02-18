@@ -57,6 +57,7 @@
   .header {
   }
   .header {
+    min-height: 70px;
     width: 100%;
     top: 0;
     padding-top: 24px;
@@ -75,7 +76,6 @@
     text-align: center;
     margin-left: auto;
     background: #ffffff;
-    margin-bottom: 24px;
   }
   .mobail-menu-open-icon {
     transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -252,7 +252,7 @@
     margin-right: auto;
   }
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 478px) {
   .conteiner {
     padding-left: 16px;
     padding-right: 16px;
