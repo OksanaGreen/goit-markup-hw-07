@@ -82,6 +82,7 @@
   .hero {
     max-width: 1440px;
     margin: 0 auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: var(--gra), url(../images/hero-bg.jpg);

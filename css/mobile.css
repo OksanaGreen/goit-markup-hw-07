@@ -10,6 +10,11 @@
     max-width: 100%;
     padding: 0px;
   }
+  .team {
+    padding-top: 96px;
+    padding-bottom: 104px;
+    background: #f4f4fd;
+  }
 
   .conteiner-mob-menu {
   }
@@ -87,6 +92,7 @@
   .hero {
     max-width: 100%;
     margin: 0 auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: var(--gra), url(../images/bg-tab.jpg);
@@ -125,7 +131,7 @@
   }
   .information-title {
     display: block;
-    font-weight: var(--main-title-fontweight);
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -157,11 +163,7 @@
   .inform-link {
   }
   /*-----Team--------*/
-  .team {
-    padding-top: 96px;
-    padding-bottom: 128px;
-    background: #f4f4fd;
-  }
+
   .team-list {
     align-items: center;
     justify-content: center;
@@ -253,6 +255,11 @@
   }
 }
 @media screen and (max-width: 478px) {
+  .team {
+    padding-top: 96px;
+    padding-bottom: 128px;
+    background: #f4f4fd;
+  }
   .conteiner {
     padding-left: 16px;
     padding-right: 16px;
@@ -263,6 +270,7 @@
   .hero {
     max-width: 100%;
     margin: 0 auto;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-image: var(--gra), url(../images/bg-mob.jpg);
